@@ -1,4 +1,6 @@
-This project has a firebase backend and a react.js frontend.To view this project on your machine you have to make a new firebase project and add the config data in the firebase-sample.js file. **After that rename this file into firebase.js** and it all should work!
+This project has a firebase backend and a react.js frontend.To view this project on your machine you have to make a new firebase project and add the config data in the firebase-sample.js file. **After that rename this file into firebase.js** and it all should work!  <br /> <br />
+
+![insta-clone1.png](https://github.com/elion74/instagram-clone/blob/main/img/insta-clone1.png?raw=true)<br /><br />
 
 
 ## Available Scripts
