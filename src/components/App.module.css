@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.app{
+    background-color: #fafafa;
+}
+
+.app_header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    position:sticky;
+    top:0;
+    padding:15px;
+    background-color: white;
+    border-bottom:solid 1px rgba(236, 227, 227,1);
+}
+
+.app_headerimg{
+    object-fit: contain;
+}
+
+.app_input{
+    height:28px;
+    width:200px;  
+    border:solid 1px lightgray;
+    border-radius:3px; 
+    background-color:#f0f0f0;
+}
+
+.app_input::placeholder{
+    text-align:center;
+    font-size:1.2em;
+}
+
+.app_modalform{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.app_modalbuttons{
+    padding:10px;
+}
+
+
+.app_usernameinput{
+    margin-top:-50px;
+}
+
+
+/* Button bei Registrieren bei Modal Registrieren -->also registrierenisclicked == true */
+.app_registrierenbutton{
+    position: absolute;
+    top:5px;
+}
+/*exit bei Registrieren bei Modal Registrieren -->also registrierenisclicked == true*/
+.app_registrierenexit{
+    margin-top:20px;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+}
+/* .posts_left{
+} */
+.posts_right{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+
+
+.upload_error{
+    text-align: center;
+}
+
